@@ -1,10 +1,41 @@
-body{
-	margin: 0px;
-	font-family: 'Josefin Slab', serif;
-},
+/*
+@Author : Claud Sumbus;
+*/
 
-.main{
-	margin: -10px 0px 0px 0px;
-	padding: 4px;
-	background-color: #eee;
-},
+
+/* Reset */
+
+body{
+	font-family: 'Architects Daughter', cursive;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
