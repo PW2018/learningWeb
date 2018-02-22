@@ -5,8 +5,8 @@
 	/* Reset */
 
 	*{
-		/* font-family: 'Roboto Slab', serif; */
-		font-family: 'Kalam', cursive;
+		font-family: 'Roboto Slab', serif;
+		/* font-family: 'Kalam', cursive; */
 	}
 	body{
 		margin: 0;
