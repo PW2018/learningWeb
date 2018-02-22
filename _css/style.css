@@ -68,7 +68,11 @@
 		right: 0;
 	}
 
-	/**/
+	/*Generic*/
+	.flex-container {
+		display: flex;
+		justify-content: center;
+	}
 
 
 
@@ -98,6 +102,23 @@
 
 	/*Margens*/
 
+	.m-2{
+		margin: 2em !important;
+	}
+
+	.m-1{
+		margin: 1em !important;
+	}
+
 	.mb-2{
 		margin-bottom: 2em !important;
+	}
+
+	.mt-1{
+		margin-top: 1em !important;
+	}
+	/*Textos*/
+
+	.text-center{
+		text-align: center !important;
 	}
