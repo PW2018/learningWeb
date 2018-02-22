@@ -26,6 +26,7 @@ ul {
     width: 100%;
 }
 
+
 li {
     float: left;
 }
@@ -34,7 +35,7 @@ li a {
     display: block;
     color: #00A0B0;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
 }
 
@@ -44,4 +45,10 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
+}
+
+.float-right{
+	float: right; 
+	position: absolute; 
+	right: 0;
 }
